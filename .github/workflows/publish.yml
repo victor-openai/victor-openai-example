@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PRIVATE_REPO_PAT }}
       - name: Setup uv
         uses: astral-sh/setup-uv@v5
         with:
