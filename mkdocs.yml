@@ -1,0 +1,8 @@
+site_name: Victor OpenAI Example
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+
