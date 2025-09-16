@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Victor OpenAI Example","text":"<p>This is a minimal Python package used to exercise CI.</p> <p>Example usage:</p> <pre><code>from victor_openai_example import Example\n\nprint(Example(\"World\").greet())\n</code></pre>"}]}
